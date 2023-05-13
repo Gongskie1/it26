@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+body{
+    height: 100vh;
+}
+/* TABLE */
+table{
+    width: 100%;
+}
+thead{
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+th{
+    padding: 15px;
+}
+td{
+    padding: 10px;
+    border-bottom: 1px solid black;
+    font-weight: 700;
+}
+tbody   tr:nth-child(even){
+    background-color: gray;
+}
+form{
+  display: flex;
+  align-items: center;
+}
+.date{
+    width: 100%;
+    padding: 8px;
+}
+.table_container{
+    margin-top: 10px;
+    max-height: 100%;
+    overflow-y: auto;
+}
